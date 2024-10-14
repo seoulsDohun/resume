@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <Stack mt={15}>
+    <Stack mt={15} p={3}>
       {/* 제목 */}
       <Typography variant={`h3`} mb={7} fontWeight={`600`}>
         기술 이력서
