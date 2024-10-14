@@ -1,15 +1,11 @@
-
 import About from './components/About'
+import Experience from './components/Experience'
 
-const Home = () => {
-  console.log('test')
+export default function Home() {
   return (
-    <>
-      {/* =========== 제목 및 간단한 자기소개 =========== */}
+    <main>
       <About />
-      
-    </>
+      <Experience />
+    </main>
   )
 }
-
-export default Home
