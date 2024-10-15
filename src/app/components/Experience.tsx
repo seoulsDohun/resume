@@ -95,11 +95,11 @@ const experiences: ExperienceItem[] = [
 const Experience = () => {
   return (
     <Stack mt={10} p={3}>
-      <Typography variant="h3" mb={7} fontWeight="600">
+      <Typography variant="h2" mb={7} fontWeight="600">
         Work Experience
       </Typography>
       {experiences.map((exp, index) => (
-        <Box key={index} sx={{ mb: 4, p: 3, pl: 0 }}>
+        <Box key={index} sx={{ pt: 3 }}>
           {/* 회사 이름, 직책, 기간 */}
           <Grid container spacing={3}>
             <Grid item xs={12} md={4}>
@@ -148,9 +148,7 @@ const Experience = () => {
               ))}
             </Grid>
           </Grid>
-          {index !== experiences.length - 1 && (
-            <Divider sx={{ borderColor: `#2f2f2f` }} />
-          )}
+          <Divider sx={{ borderColor: `#2f2f2f`, mb: 3 }} />
         </Box>
       ))}
     </Stack>
