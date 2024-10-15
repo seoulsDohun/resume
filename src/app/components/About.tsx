@@ -43,8 +43,8 @@ const About = () => {
         <Stack flex={0.3} alignItems={`center`} mb={4}>
           <Stack
             sx={{
-              width: `300px`,
-              maxWidth: '300px',
+              width: `400px`,
+              maxWidth: '400px',
               aspectRatio: '1 / 1',
               borderRadius: '50%',
               overflow: 'hidden',
