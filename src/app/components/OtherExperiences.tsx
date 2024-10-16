@@ -46,24 +46,21 @@ const OtherExperiences = () => {
       </Typography>
       {otherExperiences.map((exp, index) => (
         <Grid spacing={3} key={index}>
-          <Grid item xs={12} md={4}>
+          <Grid item>
             <Typography variant="h4" fontWeight="600" mb={1}>
               {exp.company}
             </Typography>
             <Typography variant="subtitle1">{exp.position}</Typography>
             <Typography variant="subtitle2">{exp.period}</Typography>
           </Grid>
-          <Grid item xs={12} md={8} mt={3}>
+          <Grid item mt={3}>
             {exp.description.map((desc, index) => (
               <Typography variant="h6" key={index}>
                 {desc}
               </Typography>
             ))}
             {exp.link && (
-              <Link
-                href={exp.link}
-                target="_blank"
-              >
+              <Link href={exp.link} target="_blank">
                 {exp.linkText}
               </Link>
             )}
