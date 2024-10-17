@@ -19,7 +19,7 @@ const About = () => {
       >
         <Stack flex={0.7}>
           <Typography variant={`h4`} mb={4} fontWeight={`600`}>
-            안녕하세요, 개발자 김도훈이라고 합니다.66
+            안녕하세요, 개발자 김도훈이라고 합니다.
           </Typography>
           <Typography variant={`h6`} fontWeight={`500`}>
             {new Date().getFullYear() - 2020}년차 웹 프론트엔드 개발자로 일하고
