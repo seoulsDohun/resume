@@ -50,7 +50,7 @@ const About = () => {
             }}
           >
             <Image
-              src="/myPhoto.jpg"
+              src="myPhoto.jpg"
               alt="My Image"
               layout="fill"
               objectFit="cover"
