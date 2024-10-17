@@ -36,6 +36,12 @@ const About = () => {
           <Typography variant={`h6`} fontWeight={`500`}>
             주도적으로 업무를 진행할 수 있는 환경을 선호합니다.
           </Typography>
+          <Typography variant={`h6`} fontWeight={`500`}>
+            개발자로서 고객이 만족하는 서비스를 제공하는 것만큼 팀원들의 성장을
+            함께 이루는 것도 중요하다고 생각합니다. 어느 한쪽에 치우치지 않고,
+            고객에게 좋은 서비스를 제공하면서 팀원들의 성장도 함께 이끌어낼 수
+            있는 조화를 이루는 데 관심이 많습니다.
+          </Typography>
         </Stack>
         {/* 내 사진 */}
         <Stack flex={0.3} alignItems={`center`} mb={4}>
