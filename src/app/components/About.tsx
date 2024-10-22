@@ -44,7 +44,7 @@ const About = () => {
           </Typography>
         </Stack>
         {/* 내 사진 */}
-        <Stack flex={0.3} alignItems={`center`} mb={4}>
+        <Stack flex={0.3} alignItems={`center`} mb={4} ml={3}>
           <Stack
             sx={{
               width: `400px`,
